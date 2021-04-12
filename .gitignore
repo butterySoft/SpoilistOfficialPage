@@ -1,3 +1,6 @@
 node_modules
 bower_components
 device-mockups
+.DS_Store
+.browserslistrc
+.travis.yml
