@@ -29,7 +29,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #285A84;
 }
 
 hr {
@@ -91,7 +91,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: #285A84;
 }
 
 #mainNav .navbar-toggler {
@@ -386,6 +386,16 @@ section.contact ul.list-social li.social-google-plus a {
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
+
+section.privacyPolicy {
+  display: flex;
+  flex-direction: column;
+}
+
+.privacy-container {
+  margin: auto 15%;
+}
+
 
 footer {
   padding: 25px 0;
