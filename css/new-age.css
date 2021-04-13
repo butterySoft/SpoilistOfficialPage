@@ -108,7 +108,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #85C872 !important;
   background-color: transparent;
 }
 
@@ -123,7 +123,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #85C872 !important; 
 }
 
 @media (min-width: 992px) {
@@ -411,8 +411,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #285A84;
+  color: #FFF;
+  /* background: linear-gradient(#fdcc52, #fdc539); */
 }
 
 .text-primary {
