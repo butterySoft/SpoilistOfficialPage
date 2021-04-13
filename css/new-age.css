@@ -101,15 +101,16 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 13px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 14px;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-weight: 550;
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #85C872 !important;
-  background-color: transparent;
+  color: #285A84 !important;
+
 }
 
 #mainNav .navbar-nav > li > a.active:hover {
@@ -123,7 +124,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #85C872 !important; 
+  color: #285A84 !important;
 }
 
 @media (min-width: 992px) {
@@ -292,7 +293,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  /* background: linear-gradient(to left, #7b4397, #dc2430); */
+  background: #285A84;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -301,7 +303,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: url("../img/cooking-img-bg.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -439,7 +441,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn {
   border-radius: 300px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
