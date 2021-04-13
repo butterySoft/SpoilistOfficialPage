@@ -5,3 +5,5 @@ device-mockups
 .browserslistrc
 .travis.yml
 other
+package-lock.json
+package.json
