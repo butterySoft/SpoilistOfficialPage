@@ -388,14 +388,15 @@ section.contact ul.list-social li.social-google-plus a:hover {
 }
 
 #privacyBody {
-  max-width: 95%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 section.privacyPolicy {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
-  align-items: center;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 .privacy-container {
