@@ -6,10 +6,7 @@
 
 /*
 Color Pallete Hex Codes:
-#285A84 - Dark blue
-#85C872 - Dark green
-#C2EF7E - Light green
-#EEF7F2 - Light grey
+#5E5CE6 - Dark blue
 #FFFFFF - white
  */
 
@@ -24,12 +21,12 @@ body {
 }
 
 a {
-  color: #285A84;
+  color: #5E5CE6;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #285A84;
+  color: #100e7b;
 }
 
 hr {
@@ -84,14 +81,14 @@ section h2 {
   letter-spacing: 1px;
 }
 
-/* Spoilist logo svg */
+/* quickRLogo svg */
 #mainNav .navbar-brand img {
   height: 50px;
   padding: 10px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #285A84;
+  color: #5E5CE6;
 }
 
 #mainNav .navbar-toggler {
@@ -109,7 +106,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #285A84 !important;
+  color: #5E5CE6 !important;
 
 }
 
@@ -124,7 +121,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #285A84 !important;
+  color: #5E5CE6 !important;
 }
 
 @media (min-width: 992px) {
@@ -172,8 +169,8 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: #85C872;
-  /* background: linear-gradient(to left, #85C872, #FFFFFF); */
+  background: #5E5CE6;
+  /* background: linear-gradient(to left, #5E5CE6, #FFFFFF); */
 }
 
 header.masthead .header-content {
@@ -294,7 +291,7 @@ section.features .feature-item i {
   display: block;
   margin-bottom: 15px;
   /* background: linear-gradient(to left, #7b4397, #dc2430); */
-  background: #285A84;
+  background: #5E5CE6;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -303,7 +300,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/cooking-img-bg.jpg");
+  background-image: url("../img/coffee-shop-background.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -430,7 +427,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #285A84;
+  background: #5E5CE6;
   color: #FFF;
   /* background: linear-gradient(#fdcc52, #fdc539); */
 }
@@ -452,8 +449,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #285A84;
-  background-color: #285A84;
+  border-color: #5E5CE6;
+  background-color: #5E5CE6;
 }
 
 .btn {
